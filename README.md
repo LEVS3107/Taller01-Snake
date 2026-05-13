@@ -54,3 +54,58 @@ Error antes de resolver conflicto:
 Push exitoso después de resolver conflicto:
 
 ![Push exitoso Integrante 3](capturas/integrante3_push_exitoso.png)
+
+
+### Líder
+
+Modifico:
+
+- En `GUIView.java`, cambiar el texto del botón de `Start Game` a `Jugar`.
+- En `SnakeModel.java`, cambiar `Color.GRAY` por `Color.BLUE` en `SNAKE_HEAD_TILE`.
+- En `SnakeModel.java`, cambiar `Color.RED` por `Color.GREEN` en `FRUIT_TILE`.
+- En `GoldModel.java`, cambiar `Color.BLACK` por `Color.LIGHT_GRAY` en `COLLECTOR_TILE`.
+
+Commit:
+
+
+Líder: personalizar botón y colores principales
+
+
+### Integrante 1
+
+Modifico:
+
+- En `GUIView.java`, cambiar el texto del botón de `Start Game` a `Let's Go!!!`.
+- En `SnakeModel.java`, cambiar `Color.GRAY` por `Color.LIGHT_GRAY` en `SNAKE_HEAD_TILE`.
+
+Commit:
+
+
+Integrante 1: cambiar botón y cabeza de snake
+
+
+### Integrante 2
+
+Modifico:
+
+- En `GUIView.java`, cambiar el texto del botón de `Start Game` a `Let's Play`.
+- En `GoldModel.java`, cambiar `Color.BLACK` por `Color.BLUE` en `COLLECTOR_TILE`.
+
+Commit:
+
+
+Integrante 2: cambiar botón y colector de gold
+
+
+### Integrante 3 <small>_(si hubiere)_</small>
+
+Si el grupo tiene un tercer integrante adicional, modificar:
+
+- En `GUIView.java`, cambiar el texto del botón de `Start Game` a `Iniciar`.
+- En `GoldModel.java`, cambiar `Color.BLACK` por `Color.RED` en `COLLECTOR_TILE`.
+
+Commit:
+
+
+Integrante 3: cambiar botón y colector
+
